@@ -1,0 +1,16 @@
+if SHIELD_GNF_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "GNF"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_GNF_LEFT || SHIELD_GNF_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

@@ -1,0 +1,6 @@
+config SHIELD_GNF_LEFT
+    def_bool $(shields_list_contains,gnfa_left)
+
+config SHIELD_GNF_RIGHT
+    def_bool $(shields_list_contains,gnf_right)
+

@@ -15,12 +15,12 @@
 // |      |     |     | GUI |     |     |     |     |     |LARW |     |     |      |
 // | FN   | CRL | ALT | GUI | SPC | SPC |     | SPC | LOW |LARW |DARW |UARW | RARW |
                         bindings = <
-   &kp CIRC    &kp N1    &kp N2    &kp N3          &kp N4     &kp N5            &kp N6     &kp N7    &kp N8     &kp N9    &kp N0      &kp BSPC
-   &kp ESC     &kp Q     &kp W     &kp E           &kp R      &kp T             &kp Z      &kp U     &kp I      &kp O     &kp P       &kp BSPC
-   &kp TAB     &kp A     &kp S     &kp D           &kp F      &kp G             &kp H      &kp J     &kp K      &kp L     &kp NUHS    &kp KP_PLUS
-   &kp LSHIFT  &kp Y     &kp X     &kp C           &kp V      &kp B             &kp N      &kp M     &kp GRAVE  &kp DOT   &kp SEMI    &kp RET
-   &kp N1      &kp LCTRL &kp LALT  &kp LGUI        &kp SPACE  &kp SPACE         &kp SPACE  &kp SPACE &kp LEFT   &kp DOWN  &kp UP      &kp RIGHT
-   &kp CAPS    &kp LCTRL &kp LALT  &kp LGUI        &kp SPACE  &kp SPACE         &kp SPACE  &kp SPACE &kp LEFT   &kp DOWN  &kp UP      &kp RIGHT
+   &kp N1    &kp N1    &kp N2    &kp N3     &kp N4     &kp N5              &kp N6     &kp N7   &kp N8    &kp N9   &kp N0    &kp N1
+   &kp ESC   &kp Q     &kp W     &kp E     &kp R      &kp T                &kp Z      &kp U     &kp I    &kp O    &kp N1    &kp N1
+   &kp TAB   &kp A     &kp S     &kp D     &kp F      &kp G                &kp H      &kp J     &kp K    &kp L    &kp N1    &kp N1
+   &kp LS    &kp Y     &kp X     &kp C     &kp V      &kp B                &kp N      &kp M     &kp N1   &kp N1   &kp N1    &kp N1
+   &kp N1    &kp N1    &kp N1    &kp N1    &kp N1     &kp N1               &kp N1     &kp N1    &kp N1   &kp N1   &kp N1    &kp N1
+   &kp CAPS  &kp LCTRL &kp LALT  &kp LGUI  &kp SPACE  &kp SPACE            &kp SPACE  &kp SPACE &kp N1   &kp N1   &kp N1    &kp N1
                         >;
 };
                 lower_layer {

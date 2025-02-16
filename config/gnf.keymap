@@ -20,7 +20,7 @@
    &kp CAPS   &kp A     &kp S     &kp D         &kp F      &kp G                &kp H      &kp J     &kp K      &kp L        &kp N1       &kp N1
    &kp LSHIFT &kp Y     &kp X     &kp C         &kp V      &kp B                &kp N      &kp M     &kp N1     &kp N1       &kp N1       &kp N1
    &trans     &trans    &trans    &kp N1        &trans     &trans               &trans     &trans    &kp N1     &trans       &trans       &trans
-   &trans     &kp LCTRL &kp LALT  &kp LGUI      &kp N1     &kp SPACE            &kp N1     &kp N1    &kp N1     &kp N1       &kp N1       &kp N1
+   &trans     &kp LCTRL &kp LALT  &kp LGUI      &kp SPACE  &kp SPACE            &kp SPACE  &kp SPACE &kp LARW   &kp DARW     &kp UARW     &kp RARW
                         >;
 };
                 lower_layer {

@@ -16,8 +16,8 @@
 // | FN   | CRL | ALT | GUI | SPC | SPC |     | SPC | LOW |LARW |DARW |UARW | RARW |
                         bindings = <
    &kp ESC     &kp N1    &kp N2    &kp N3        &kp N4     &kp N5               &kp N6     &kp N7    &kp N8     &kp N9       &kp N0       &kp N1
-   &kp CARET   &kp Q     &kp W     &kp E         &kp R      &kp T                &kp Z      &kp U     &kp I      &kp O        &kp QMARK    &kp N1
-   &kp TAB     &kp A     &kp S     &kp D         &kp F      &kp G                &kp H      &kp J     &kp K      &kp L        &kp KP_PLUS  &mo 1
+   &kp CARET   &kp Q     &kp W     &kp E         &kp R      &kp T                &kp Z      &kp U     &kp I      &kp O        &kp N1       &kp N1
+   &kp TAB     &kp A     &kp S     &kp D         &kp F      &kp G                &kp H      &kp J     &kp K      &kp L        &kp N1       &mo 1
    &kp CAPS    &kp Y     &kp X     &kp C         &kp V      &kp B                &kp N      &kp M     &kp COMMA  &kp KP_MINUS &kp HASH     &kp N1
    &trans      &trans    &trans    &kp LESS_THAN &trans     &trans               &trans     &trans    &kp DOT    &trans       &trans       &trans
    &kp SHIFT   &kp LCTRL &kp LALT  &kp LGUI      &kp SPACE  &kp SPACE            &kp SPACE  &kp SPACE &kp LARW   &kp DARW     &kp UARW     &kp RARW

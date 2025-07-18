@@ -8,18 +8,14 @@
 
                 default_layer {
 // ---------------------------------------------------------------------------------
-// |   `  |  1  |  2  |  3  |  4  |  5  |     |  6  |  7  |  8  |  9  |  0  | BKSP |
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |     |  Z  |  U  |  I  |  O  |  P  |  \   |
-// | CAPS |  A  |  S  |  D  |  F  |  G  |     |  H  |  J  |  K  |  L  |  ;  |  ENT |
-// | SHFT |  Y  |  X  |  C  |  V  |  B  |     |  N  |  M  |  ,  |  .  |  /  |  #   |
-// |      |     |     | GUI |     |     |     |     |     |LARW |     |     |      |
-// | FN   | CRL | ALT | GUI | SPC | SPC |     | SPC | LOW |LARW |DARW |UARW | RARW |
+// |  ESC |  Q  |  W  |  E  |  R  |  T  |     |  Z  |  U  |  I  |  O  |  P  | BKSP |
+// | TAB  |  A  |  S  |  D  |  F  |  G  |     |  H  |  J  |  K  |  L  |  ;  | ENT  |
+// | SHFT |  Y  |  X  |  C  |  V  |  B  |     |  N  |  M  |  ,  |  .  |  /  | META |
+// | FN   | CRL | ALT | GUI | CDE | SPC |     | SPC | LOW |LARW |DARW |UARW | RARW |
                         bindings = <
-   &kp GRAVE  &kp N1    &kp N2    &kp N3        &kp N4     &kp N5               &kp N6     &kp N7    &kp N8     &kp N9       &kp N0       &kp N1
-   &kp ESC    &kp Q     &kp W     &kp E         &kp R      &kp T                &kp Z      &kp U     &kp I      &kp O        &kp P        &kp GRAVE
-   &kp CAPS   &kp A     &kp S     &kp D         &kp F      &kp G                &kp H      &kp J     &kp K      &kp L        &kp KP_PLUS  &kp BSPC
+   &kp ESC    &kp Q     &kp W     &kp E         &kp R      &kp T                &kp Z      &kp U     &kp I      &kp O        &kp P        &kp BSPC
+   &kp TAB    &kp A     &kp S     &kp D         &kp F      &kp G                &kp H      &kp J     &kp K      &kp L        &kp KP_PLUS  &kp ENTER
    &kp LSHIFT &kp Y     &kp X     &kp C         &kp V      &kp B                &kp N      &kp M     &kp COMMA  &kp KP_MINUS &kp HASH     &kp ENTER
-   &trans     &trans    &trans    &kp LESS_THAN &trans     &trans               &trans     &trans    &kp DOT    &trans       &trans       &trans
    &trans     &kp LCTRL &kp LALT  &kp LGUI      &kp SPACE  &kp SPACE            &kp SPACE  &kp SPACE &kp LARW   &kp DARW     &kp UARW     &kp RARW
                         >;
 };
@@ -30,8 +26,6 @@
 // |       |       |       | LPAR  | RPAR  |       |          |       | LBKT  | RBKT  |       |       |       |
 // |       |       |       |       |       |       |          |       |       |       |       |       |       |
                         bindings = <
-   &kp N1  &kp N1    &kp N1    &kp N1     &kp N1     &kp N1               &kp N1     &kp N1  &kp N1     &kp N1    &kp N1    &kp N1
-   &kp N1  &kp N1    &kp N1    &kp N1     &kp N1     &kp N1               &kp N1     &kp N1  &kp N1     &kp N1    &kp N1    &kp N1
    &kp N1  &kp N1    &kp N1    &kp N1     &kp N1     &kp N1               &kp N1     &kp N1  &kp N1     &kp N1    &kp N1    &kp N1
    &kp N1  &kp N1    &kp N1    &kp N1     &kp N1     &kp N1               &kp N1     &kp N1  &kp N1     &kp N1    &kp N1    &kp N1
    &kp N1  &kp N1    &kp N1    &kp N1     &kp N1     &kp N1               &kp N1     &kp N1  &kp N1     &kp N1    &kp N1    &kp N1

@@ -8,14 +8,14 @@
 
                 default_layer {
 // ---------------------------------------------------------------------------------
-// |  ESC |  Q  |  W  |  E  |  R  |  T  |     |  Z  |  U  |  I  |  O  |  P  | BKSP |
+// |  ESC |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U  |  I  |  O  |  P  | BKSP |
 // | TAB  |  A  |  S  |  D  |  F  |  G  |     |  H  |  J  |  K  |  L  |  ;  | ENT  |
-// | SHFT |  Y  |  X  |  C  |  V  |  B  |     |  N  |  M  |  ,  |  .  |  /  | META |
+// | SHFT |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M  |  ,  |  .  |  /  | META |
 // | FN   | CRL | ALT | GUI | CDE | SPC |     | SPC | LOW |LARW |DARW |UARW | RARW |
                         bindings = <
-   &kp ESC    &kp Q     &kp W     &kp E         &kp R      &kp T                &kp Z      &kp U     &kp I      &kp O        &kp P        &kp BSPC
+   &kp ESC    &kp Q     &kp W     &kp E         &kp R      &kp T                &kp Y      &kp U     &kp I      &kp O        &kp P        &kp BSPC
    &kp TAB    &kp A     &kp S     &kp D         &kp F      &kp G                &kp H      &kp J     &kp K      &kp L        &kp KP_PLUS  &kp ENTER
-   &kp LSHIFT &kp Y     &kp X     &kp C         &kp V      &kp B                &kp N      &kp M     &kp COMMA  &kp KP_MINUS &kp HASH     &kp ENTER
+   &kp LSHIFT &kp Z     &kp X     &kp C         &kp V      &kp B                &kp N      &kp M     &kp COMMA  &kp KP_MINUS &kp HASH     &kp ENTER
    &trans     &kp LCTRL &kp LALT  &kp LGUI      &kp SPACE  &kp SPACE            &kp SPACE  &kp SPACE &kp LARW   &kp DARW     &kp UARW     &kp RARW
                         >;
 };
